@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -60,19 +60,31 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|183245000|86950000|72ad13ae-084d-4e06-9fb5-e89c6eb08a46|5d324e96-40de-4c36-8046-64d1606b6776",
+          "hole_clearance|127745000|60950000|9f2285cc-0ee2-468d-bef3-bcde831d61a2|4cc8d3a1-1e22-4be4-bf86-f4cbdd7ead65",
           ""
         ],
         [
-          "hole_clearance|183245000|86950000|72ad13ae-084d-4e06-9fb5-e89c6eb08a46|e89ec03a-dced-47a8-bdba-a0002cc54a97",
+          "hole_clearance|127745000|60950000|9f2285cc-0ee2-468d-bef3-bcde831d61a2|c734bd85-bfd7-4017-9951-44d7b8213811",
           ""
         ],
         [
-          "hole_clearance|183245000|93050000|c4f60e91-c37f-4467-b465-622785d60f45|8d267fc4-37fb-42e4-95ed-c5147e6182a4",
+          "hole_clearance|127745000|67050000|0e3bb53d-44bd-4f1f-bebe-6d5bc8f46d77|6c9b0658-7ca6-41d6-b219-2fa5dee81052",
           ""
         ],
         [
-          "hole_clearance|183245000|93050000|c4f60e91-c37f-4467-b465-622785d60f45|a5e61287-33b0-48b2-9fb3-4e4f7e26ff88",
+          "hole_clearance|127745000|67050000|0e3bb53d-44bd-4f1f-bebe-6d5bc8f46d77|e0bda5f9-7b42-4fc9-9219-e2b93d65919e",
+          ""
+        ],
+        [
+          "silk_overlap|122146267|61510000|7d6d9e7c-5258-44a9-ae0e-165c685c3f3d|ce2a1438-1e09-4abf-b4a8-f003dfaa2832",
+          ""
+        ],
+        [
+          "starved_thermal|127320000|60800000|931177c5-757b-4a3b-876f-e701c9cd2548|4cc8d3a1-1e22-4be4-bf86-f4cbdd7ead65|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|127320000|60800000|931177c5-757b-4a3b-876f-e701c9cd2548|c734bd85-bfd7-4017-9951-44d7b8213811|F.Cu",
           ""
         ]
       ],
